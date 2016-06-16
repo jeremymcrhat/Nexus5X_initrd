@@ -16,6 +16,6 @@ cp board/nexus_5x/fix_tty.sh $TARGETDIR/a.sh
 mkdir -p $TARGETDIR/etc/init.d 
 cp board/nexus_5x/fix_tty.sh $TARGETDIR/etc/init.d/rcS
 
+cp board/nexus_5x/mount_fs.sh $TARGETDIR/m.sh
 
-
-
+cp board/nexus_5x/mount_fs.sh $TARGETDIR/etc/init.d/rcS
